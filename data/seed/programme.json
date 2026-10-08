@@ -1,0 +1,39 @@
+{
+  "programme_id": "KE-PILOT-SIM",
+  "label": "Simulated pilot: food vouchers (Kakuma/Kalobeyei-style camp) and farm-input vouchers (western Kenya-style county). SIMULATED DATA.",
+  "simulated": true,
+  "timezone_offset": "+03:00",
+  "start": "2026-09-01T00:00:00+03:00",
+  "expiry": "2026-09-29T23:59:59+03:00",
+  "redeem_deadline": "2026-10-13T23:59:59+03:00",
+  "home_domain": "voucher.example.org",
+  "approval_server": "https://voucher.example.org/tx-approve",
+  "kes_per_usd": 129.3,
+  "assets": {
+    "OVFOOD": {
+      "category": "food",
+      "entitlement": {
+        "per_household_member": "3.00",
+        "max": "13.00"
+      }
+    },
+    "OVAGRI": {
+      "category": "agri",
+      "entitlement": {
+        "fixed": "40.00"
+      }
+    }
+  },
+  "issuer": {
+    "thresholds": {
+      "low": 1,
+      "med": 10,
+      "high": 20
+    },
+    "master_weight": 20,
+    "ops_key_weight": 10,
+    "approval_signer_weight": 1
+  },
+  "llm_dedup_allowed": false,
+  "min_licence_days": 30
+}

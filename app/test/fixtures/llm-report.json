@@ -1,0 +1,57 @@
+{
+  "_note": "Hand-written fixtures in the Anthropic Messages API response shape (not recorded from a live call). Used by test/report.test.ts.",
+  "valid": {
+    "id": "msg_fixture",
+    "type": "message",
+    "role": "assistant",
+    "model": "claude-sonnet-5",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"markdown\": \"# Donor report: KE-PILOT-SIM\\n\\nBetween 2026-09-01 and 2026-10-14 the programme disbursed 4,085.00 USD of food vouchers. Merchants were paid 3,732.71 USD. 215 payment attempts were refused.\\n\"}"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  },
+  "hallucinated": {
+    "id": "msg_fixture",
+    "type": "message",
+    "role": "assistant",
+    "model": "claude-sonnet-5",
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"markdown\": \"# Donor report\\n\\nThe programme reached 12,500 households and saved 18% versus cash.\\n\"}"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  },
+  "not_json": {
+    "id": "msg_fixture",
+    "type": "message",
+    "role": "assistant",
+    "model": "claude-sonnet-5",
+    "content": [
+      {
+        "type": "text",
+        "text": "Here is your report: it went well."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  }
+}

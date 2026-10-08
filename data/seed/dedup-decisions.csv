@@ -1,0 +1,16 @@
+row_a,row_b,decision,decided_by,note
+R0200,R0207,same,CVA officer (simulated),transliteration Mohamed/Mohammed + phone format
+R0084,R0436,same,CVA officer (simulated),day/month swap in date of birth
+R0154,R0426,same,CVA officer (simulated),transposed digits in ID + phone format
+R0261,R0267,same,CVA officer (simulated),no date of birth on the second registration + first-name typo
+R0252,R0304,same,CVA officer (simulated),case and whitespace only
+R0198,R0219,same,CVA officer (simulated),transliteration Hussein/Husein
+R0193,R0480,same,CVA officer (simulated),spelling Nyakuoth/Nyakwoth
+R0099,R0218,same,CVA officer (simulated),hyphenated vs spaced first name
+R0069,R0254,same,CVA officer (simulated),surname written first
+R0335,R0442,same,CVA officer (simulated),surname spelling (extra letter) + phone format
+R0146,R0256,same,CVA officer (simulated),day/month swap + household size differs
+R0199,R0257,same,CVA officer (simulated),transposed ID digits + name order swapped
+R0017,R0235,distinct,CVA officer (simulated),"twins sharing phone, surname and date of birth"
+R0439,R0464,distinct,CVA officer (simulated),"twins sharing phone, surname and date of birth"
+R0173,R0418,distinct,CVA officer (simulated),brothers in one household sharing phone and surnames

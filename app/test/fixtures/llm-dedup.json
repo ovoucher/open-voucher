@@ -1,0 +1,41 @@
+{
+  "_note": "Hand-written fixtures in the Anthropic Messages API response shape (not recorded from a live call). Used by test/dedup.test.ts.",
+  "responses": [
+    {
+      "id": "msg_fixture",
+      "type": "message",
+      "role": "assistant",
+      "model": "claude-sonnet-5",
+      "content": [
+        {
+          "type": "text",
+          "text": "```json\n{\"judgements\": [{\"a\": \"R0017\", \"b\": \"R0235\", \"band\": \"same_person\", \"reason\": \"twins\"}, {\"a\": \"R0001\", \"b\": \"R0002\", \"band\": \"review\", \"reason\": \"x\"}], \"note\": \"extra\"}\n```"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0
+      }
+    },
+    {
+      "id": "msg_fixture",
+      "type": "message",
+      "role": "assistant",
+      "model": "claude-sonnet-5",
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"judgements\": [{\"a\": \"R0017\", \"b\": \"R0235\", \"band\": \"review\", \"reason\": \"Same birth year and phone but different first names: consistent with twins; keep for staff.\"}, {\"a\": \"R0173\", \"b\": \"R0418\", \"band\": \"review\", \"reason\": \"Shared surnames and phone, different birth years: likely relatives in one household.\"}, {\"a\": \"R0439\", \"b\": \"R0464\", \"band\": \"likely_same\", \"reason\": \"Illustrative fixture: moves a pair between bands to test that pairs are never dropped.\"}]}"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0
+      }
+    }
+  ]
+}

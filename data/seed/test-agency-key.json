@@ -1,0 +1,5 @@
+{
+  "WARNING": "TEST-ONLY KEY. Derived from a public label; anyone can recompute the secret. Never use it for a real registry.",
+  "public_key": "GCZNJOS5PNPARF75EFP3QUD2WGOV7E56XO3ZRLWPKPPX3NTE2SVSIFIC",
+  "secret": "SADT3ZIOAHAFK45TXQS7G7ZP2ALRXJXA36XXACTPYM2LAPLR4R76BZT4"
+}

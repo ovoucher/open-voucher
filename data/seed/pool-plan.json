@@ -1,0 +1,713 @@
+{
+  "simulated": true,
+  "note": "Food pool funded at 85% of OVFOOD disbursed on day 1 and topped up on day 30; agri pool fully funded. Redemption rounds are derived from the valid payments in spend-weeks-1-4.jsonl and are mirrored by contracts/redeem_pool scenario_programme_cycle.",
+  "OVFOOD": {
+    "disbursed": "4085.0000000",
+    "fund_day1": {
+      "day": 1,
+      "amount": "3472.2500000"
+    },
+    "top_up": {
+      "day": 30,
+      "amount": "612.7500000"
+    },
+    "rounds": [
+      {
+        "day": 7,
+        "at": "2026-09-08T20:00:00+03:00",
+        "ts": 1788886800,
+        "redemptions": [
+          {
+            "merchant": "M01",
+            "amount": "76.4440000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M02",
+            "amount": "28.1220000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M03",
+            "amount": "61.3590000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M04",
+            "amount": "60.0560000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M05",
+            "amount": "77.2720000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M06",
+            "amount": "60.9460000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M07",
+            "amount": "27.1470000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M08",
+            "amount": "22.3830000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M09",
+            "amount": "76.5690000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M10",
+            "amount": "48.4140000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M11",
+            "amount": "84.7220000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M12",
+            "amount": "83.2580000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M13",
+            "amount": "21.8330000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M14",
+            "amount": "30.2800000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M15",
+            "amount": "17.5160000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M16",
+            "amount": "47.5760000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M23",
+            "amount": "54.3480000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M24",
+            "amount": "5.2290000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M25",
+            "amount": "11.3260000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M26",
+            "amount": "21.1770000",
+            "expect": "ok"
+          }
+        ]
+      },
+      {
+        "day": 14,
+        "at": "2026-09-15T20:00:00+03:00",
+        "ts": 1789491600,
+        "redemptions": [
+          {
+            "merchant": "M01",
+            "amount": "89.8710000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M02",
+            "amount": "26.6530000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M03",
+            "amount": "84.5700000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M04",
+            "amount": "55.6840000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M05",
+            "amount": "75.5690000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M06",
+            "amount": "88.8610000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M07",
+            "amount": "25.1920000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M08",
+            "amount": "25.3480000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M09",
+            "amount": "45.7090000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M10",
+            "amount": "36.1800000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M11",
+            "amount": "72.4080000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M12",
+            "amount": "72.1200000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M13",
+            "amount": "34.3740000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M14",
+            "amount": "34.0670000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M15",
+            "amount": "24.1660000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M16",
+            "amount": "31.5450000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M23",
+            "amount": "80.9910000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M24",
+            "amount": "5.3850000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M25",
+            "amount": "12.4420000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M26",
+            "amount": "31.1430000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M27",
+            "amount": "38.2060000",
+            "expect": "ok"
+          }
+        ]
+      },
+      {
+        "day": 21,
+        "at": "2026-09-22T20:00:00+03:00",
+        "ts": 1790096400,
+        "redemptions": [
+          {
+            "merchant": "M01",
+            "amount": "93.4340000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M02",
+            "amount": "22.7440000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M03",
+            "amount": "84.5550000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M04",
+            "amount": "46.9340000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M05",
+            "amount": "38.5400000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M06",
+            "amount": "66.5990000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M07",
+            "amount": "3.8700000",
+            "expect": "MerchantNotActive"
+          },
+          {
+            "merchant": "M08",
+            "amount": "28.4250000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M09",
+            "amount": "70.9000000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M10",
+            "amount": "67.4890000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M11",
+            "amount": "51.6910000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M12",
+            "amount": "70.8620000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M13",
+            "amount": "20.0510000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M14",
+            "amount": "15.2740000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M15",
+            "amount": "21.2250000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M16",
+            "amount": "44.4340000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M23",
+            "amount": "81.4840000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M24",
+            "amount": "3.7490000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M25",
+            "amount": "30.6370000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M26",
+            "amount": "34.5320000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M27",
+            "amount": "37.9030000",
+            "expect": "ok"
+          }
+        ]
+      },
+      {
+        "day": 28,
+        "at": "2026-09-29T20:00:00+03:00",
+        "ts": 1790701200,
+        "redemptions": [
+          {
+            "merchant": "M01",
+            "amount": "87.4690000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M02",
+            "amount": "17.0440000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M03",
+            "amount": "54.3430000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M04",
+            "amount": "31.2660000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M05",
+            "amount": "45.5590000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M06",
+            "amount": "82.4950000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M07",
+            "amount": "3.8700000",
+            "expect": "MerchantNotActive"
+          },
+          {
+            "merchant": "M08",
+            "amount": "19.9380000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M09",
+            "amount": "54.5830000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M10",
+            "amount": "53.1280000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M11",
+            "amount": "51.1670000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M12",
+            "amount": "56.7390000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M13",
+            "amount": "33.5950000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M14",
+            "amount": "36.2160000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M15",
+            "amount": "13.1660000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M16",
+            "amount": "36.0190000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M23",
+            "amount": "70.9910000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M24",
+            "amount": "5.7230000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M25",
+            "amount": "29.7320000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M26",
+            "amount": "46.1480000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M27",
+            "amount": "65.5960000",
+            "expect": "ok"
+          }
+        ]
+      },
+      {
+        "day": 34,
+        "at": "2026-10-05T12:00:00+03:00",
+        "ts": 1791190800,
+        "redemptions": [
+          {
+            "merchant": "M07",
+            "amount": "3.8700000",
+            "expect": "ok"
+          }
+        ]
+      }
+    ]
+  },
+  "OVAGRI": {
+    "disbursed": "3880.0000000",
+    "fund_day1": {
+      "day": 1,
+      "amount": "3880.0000000"
+    },
+    "top_up": null,
+    "rounds": [
+      {
+        "day": 7,
+        "at": "2026-09-08T20:00:00+03:00",
+        "ts": 1788886800,
+        "redemptions": [
+          {
+            "merchant": "M17",
+            "amount": "124.5270000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M18",
+            "amount": "49.2310000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M19",
+            "amount": "152.7180000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M20",
+            "amount": "79.7400000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M21",
+            "amount": "82.4470000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M22",
+            "amount": "192.0020000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M23",
+            "amount": "31.6100000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M24",
+            "amount": "42.5310000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M28",
+            "amount": "31.1680000",
+            "expect": "ok"
+          }
+        ]
+      },
+      {
+        "day": 14,
+        "at": "2026-09-15T20:00:00+03:00",
+        "ts": 1789491600,
+        "redemptions": [
+          {
+            "merchant": "M17",
+            "amount": "108.4530000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M18",
+            "amount": "64.1100000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M19",
+            "amount": "63.0800000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M20",
+            "amount": "46.8120000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M21",
+            "amount": "25.4040000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M22",
+            "amount": "229.1730000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M23",
+            "amount": "25.7930000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M24",
+            "amount": "28.0400000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M28",
+            "amount": "52.5900000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M29",
+            "amount": "61.0270000",
+            "expect": "ok"
+          }
+        ]
+      },
+      {
+        "day": 21,
+        "at": "2026-09-22T20:00:00+03:00",
+        "ts": 1790096400,
+        "redemptions": [
+          {
+            "merchant": "M17",
+            "amount": "250.9590000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M18",
+            "amount": "102.4890000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M19",
+            "amount": "196.7530000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M20",
+            "amount": "29.2100000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M21",
+            "amount": "113.6530000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M22",
+            "amount": "171.6220000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M23",
+            "amount": "31.0300000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M24",
+            "amount": "46.7000000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M28",
+            "amount": "99.7280000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M29",
+            "amount": "139.9830000",
+            "expect": "ok"
+          }
+        ]
+      },
+      {
+        "day": 28,
+        "at": "2026-09-29T20:00:00+03:00",
+        "ts": 1790701200,
+        "redemptions": [
+          {
+            "merchant": "M17",
+            "amount": "142.8550000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M18",
+            "amount": "42.9750000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M19",
+            "amount": "235.9110000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M20",
+            "amount": "58.8020000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M21",
+            "amount": "67.4330000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M22",
+            "amount": "128.0090000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M23",
+            "amount": "37.3700000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M24",
+            "amount": "52.7450000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M28",
+            "amount": "29.2030000",
+            "expect": "ok"
+          },
+          {
+            "merchant": "M29",
+            "amount": "104.9360000",
+            "expect": "ok"
+          }
+        ]
+      },
+      {
+        "day": 34,
+        "at": "2026-10-05T12:00:00+03:00",
+        "ts": 1791190800,
+        "redemptions": []
+      }
+    ]
+  },
+  "settle_day": 30,
+  "withdraw_day": 43
+}

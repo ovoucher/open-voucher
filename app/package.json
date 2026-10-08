@@ -1,0 +1,28 @@
+{
+  "name": "open-voucher",
+  "version": "0.1.0",
+  "description": "Open Voucher CLI, SEP-8 approval server, merchant onboarding, AI helpers and offline simulator",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "voucher": "./dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"dist/test/**/*.test.js\"",
+    "seed": "tsc -p tsconfig.json && node dist/src/seed/generate.js",
+    "voucher": "node dist/src/cli.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "@stellar/stellar-sdk": "^17.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}

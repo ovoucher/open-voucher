@@ -1,0 +1,19 @@
+[package]
+name = "merchant_registry"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+description = "Open Voucher merchant registry: licence-bound merchant records, self-onboarding with verifier approval, suspension and revocation"
+
+[lib]
+# cdylib is the Soroban wasm artifact. rlib lets redeem_pool's tests register this
+# contract natively in the same Soroban host and exercise the real cross-contract call.
+crate-type = ["cdylib", "rlib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }

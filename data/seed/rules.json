@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "programme_id": "KE-PILOT-SIM",
+  "category_bits": {
+    "food": 1,
+    "agri": 2
+  },
+  "assets": {
+    "OVFOOD": {
+      "category": "food",
+      "daily_cap": "5.00",
+      "weekly_cap": "10.00"
+    },
+    "OVAGRI": {
+      "category": "agri",
+      "daily_cap": "25.00",
+      "weekly_cap": "40.00"
+    }
+  },
+  "licence_classes": {
+    "RETAIL_FOOD": [
+      "food"
+    ],
+    "GENERAL_TRADER": [
+      "food",
+      "agri"
+    ],
+    "AGRO_DEALER": [
+      "agri"
+    ],
+    "PHARMACY": [],
+    "EATING_HOUSE": []
+  },
+  "min_licence_days": 30,
+  "name_match_threshold": 0.8,
+  "timebound_seconds": 300,
+  "registry_cache_seconds": 60,
+  "summary": "Vouchers can only be paid, in a single payment, by an enrolled recipient to a merchant that is active in the agency merchant registry for the voucher category (OVFOOD: food, OVAGRI: farm inputs), between the programme start and expiry. Transfers between recipients are refused. Per recipient, OVFOOD spending is capped at 5.00 per programme-local day and 10.00 per rolling 7 days; OVAGRI at 25.00 per day and 40.00 per 7 days. Approved payments are wrapped by the approval server in an authorise, pay, de-authorise transaction whose memo is the hash of these rules."
+}

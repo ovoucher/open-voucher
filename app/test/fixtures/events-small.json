@@ -1,0 +1,39 @@
+{
+  "programme": "KE-PILOT-SIM",
+  "disbursements": [
+    { "asset": "OVFOOD", "recipient": "GA", "amount": "13.0000000", "at": 1788238800 },
+    { "asset": "OVFOOD", "recipient": "GB", "amount": "6.0000000", "at": 1788238800 },
+    { "asset": "OVAGRI", "recipient": "GC", "amount": "40.0000000", "at": 1788238800 }
+  ],
+  "payments": [
+    { "asset": "OVFOOD", "from": "GA", "to": "M01", "amount": "4.5000000", "at": 1788246000, "status": "approved" },
+    { "asset": "OVFOOD", "from": "GA", "to": "M02", "amount": "1.3920000", "at": 1788332400, "status": "approved" },
+    { "asset": "OVFOOD", "from": "GB", "to": "M01", "amount": "3.0000000", "at": 1788332400, "status": "approved" },
+    { "asset": "OVAGRI", "from": "GC", "to": "M17", "amount": "19.3350000", "at": 1788332400, "status": "approved" },
+    { "asset": "OVFOOD", "from": "GA", "to": "GB", "amount": "1.0000000", "at": 1788332500, "status": "refused", "code": "PEER_TO_PEER" },
+    { "asset": "OVFOOD", "from": "GB", "to": "M01", "amount": "5.5000000", "at": 1788332600, "status": "refused", "code": "DAILY_CAP" },
+    { "asset": "OVFOOD", "from": "GB", "to": "M30", "amount": "0.5000000", "at": 1788332700, "status": "refused", "code": "MERCHANT_NOT_REGISTERED" }
+  ],
+  "pool": [
+    { "asset": "OVFOOD", "kind": "fund", "amount": "8.0000000", "at": 1788240600 },
+    { "asset": "OVAGRI", "kind": "fund", "amount": "40.0000000", "at": 1788240600 },
+    { "asset": "OVFOOD", "kind": "redeem_paid", "merchant": "M01", "amount": "7.5000000", "at": 1788807600 },
+    { "asset": "OVFOOD", "kind": "shortfall", "merchant": "M02", "amount": "1.3920000", "gap": "0.8920000", "at": 1788807600 },
+    { "asset": "OVFOOD", "kind": "redeem_queued", "merchant": "M02", "amount": "1.3920000", "at": 1788807600, "claimId": 0 },
+    { "asset": "OVFOOD", "kind": "fund", "amount": "11.0000000", "at": 1790758800 },
+    { "asset": "OVFOOD", "kind": "settle", "merchant": "M02", "amount": "1.3920000", "at": 1790758800, "claimId": 0 },
+    { "asset": "OVAGRI", "kind": "redeem_paid", "merchant": "M17", "amount": "19.3350000", "at": 1788807600 }
+  ],
+  "merchants": [
+    { "id": "M01", "address": "GM01", "onboarding": "legacy", "activatedAt": 1788048000, "categories": ["food"] },
+    { "id": "M02", "address": "GM02", "onboarding": "legacy", "activatedAt": 1788048000, "categories": ["food"] },
+    { "id": "M17", "address": "GM17", "onboarding": "legacy", "activatedAt": 1788048000, "categories": ["agri"] },
+    { "id": "M25", "address": "GM25", "onboarding": "self", "appliedAt": 1788470580, "activatedAt": 1788470820, "categories": ["food"] },
+    { "id": "M28", "address": "GM28", "onboarding": "self", "appliedAt": 1788556980, "activatedAt": 1788557580, "categories": ["agri"] }
+  ],
+  "clawbacks": [
+    { "asset": "OVFOOD", "from": "GA", "amount": "7.1080000", "at": 1790715700 },
+    { "asset": "OVFOOD", "from": "GB", "amount": "3.0000000", "at": 1790715700 },
+    { "asset": "OVAGRI", "from": "GC", "amount": "20.6650000", "at": 1790715700 }
+  ]
+}

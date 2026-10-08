@@ -1,0 +1,118 @@
+{
+  "simulated": true,
+  "seed": 20260901,
+  "attempts": 4036,
+  "planted": {
+    "p2p": 40,
+    "unregistered": 25,
+    "m30": 18,
+    "daily_cap": 60,
+    "weekly_cap": 35,
+    "category_mismatch": 15,
+    "m07_suspended": 12,
+    "after_expiry": 10
+  },
+  "approved": 3821,
+  "refusals_by_code": {
+    "PEER_TO_PEER": 40,
+    "MERCHANT_NOT_REGISTERED": 43,
+    "DAILY_CAP": 60,
+    "WEEKLY_CAP": 35,
+    "CATEGORY_MISMATCH": 15,
+    "MERCHANT_NOT_ACTIVE": 12,
+    "PROGRAMME_NOT_ACTIVE": 10
+  },
+  "beneficiary_rows": 500,
+  "enrolled_recipients": 488,
+  "planted_duplicate_pairs": [
+    {
+      "a": "R0200",
+      "b": "R0207",
+      "kind": "transliteration Mohamed/Mohammed + phone format"
+    },
+    {
+      "a": "R0084",
+      "b": "R0436",
+      "kind": "day/month swap in date of birth"
+    },
+    {
+      "a": "R0154",
+      "b": "R0426",
+      "kind": "transposed digits in ID + phone format"
+    },
+    {
+      "a": "R0261",
+      "b": "R0267",
+      "kind": "no date of birth on the second registration + first-name typo"
+    },
+    {
+      "a": "R0252",
+      "b": "R0304",
+      "kind": "case and whitespace only"
+    },
+    {
+      "a": "R0198",
+      "b": "R0219",
+      "kind": "transliteration Hussein/Husein"
+    },
+    {
+      "a": "R0193",
+      "b": "R0480",
+      "kind": "spelling Nyakuoth/Nyakwoth"
+    },
+    {
+      "a": "R0099",
+      "b": "R0218",
+      "kind": "hyphenated vs spaced first name"
+    },
+    {
+      "a": "R0069",
+      "b": "R0254",
+      "kind": "surname written first"
+    },
+    {
+      "a": "R0335",
+      "b": "R0442",
+      "kind": "surname spelling (extra letter) + phone format"
+    },
+    {
+      "a": "R0146",
+      "b": "R0256",
+      "kind": "day/month swap + household size differs"
+    },
+    {
+      "a": "R0199",
+      "b": "R0257",
+      "kind": "transposed ID digits + name order swapped"
+    }
+  ],
+  "hard_negative_pairs": [
+    {
+      "a": "R0017",
+      "b": "R0235",
+      "kind": "twins sharing phone, surname and date of birth"
+    },
+    {
+      "a": "R0439",
+      "b": "R0464",
+      "kind": "twins sharing phone, surname and date of birth"
+    },
+    {
+      "a": "R0173",
+      "b": "R0418",
+      "kind": "brothers in one household sharing phone and surnames"
+    }
+  ],
+  "disbursed": {
+    "OVFOOD": "4085.0000000",
+    "OVAGRI": "3880.0000000"
+  },
+  "spent": {
+    "OVFOOD": "3732.7100000",
+    "OVAGRI": "3572.8220000"
+  },
+  "unspent": {
+    "OVFOOD": "352.2900000",
+    "OVAGRI": "307.1780000"
+  }
+}
