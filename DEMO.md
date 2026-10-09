@@ -310,7 +310,8 @@ scripts/deploy-testnet.sh      # keys, issuer setup, test USDC, registry, SACs, 
 scripts/e2e-testnet.sh         # full journey with a short programme, expiry clawback, verify-first (a)–(c)
 ```
 
-Neither script was executed: the build environment could not reach Stellar testnet,
-Horizon or Friendbot. `scripts/issuer-setup.ts` loads and reaches the Horizon call, where
-the sandbox proxy refused the connection. Record every transaction hash from the first real
-run in `VALIDATION.md`.
+Both contracts have now been deployed to the Soroban testnet.
+- **Merchant Registry**: `CCPNVKO2I3QGWPLNN5LB6YHECU5ND37HSIROZNABUSIDNM6B54E47CJZ`
+- **Redeem Pool**: `CDNMS7MFIDHCIKQODQ4QFAVA3EBO34R3OLFEQVY6VWTFNFJUYUIOYLQF`
+
+Record every transaction hash from the first real run in `VALIDATION.md`.
