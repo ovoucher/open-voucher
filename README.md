@@ -128,3 +128,7 @@ wasm, and the approval server, onboarding, AI helpers and simulator pass offline
 `scripts/e2e-testnet.sh`) are written but were not executed, because testnet, Horizon and
 Friendbot were unreachable from the build environment. Nothing is deployed. No user,
 agency or merchant has seen it. No metric has been measured. All data is simulated.
+
+## Testnet Deployments (v0.1.0)
+- **Merchant Registry:** `CCPNVKO2I3QGWPLNN5LB6YHECU5ND37HSIROZNABUSIDNM6B54E47CJZ`
+- **Redeem Pool:** `CDNMS7MFIDHCIKQODQ4QFAVA3EBO34R3OLFEQVY6VWTFNFJUYUIOYLQF`
