@@ -76,3 +76,7 @@ export function minBig(a: bigint, b: bigint): bigint {
 export function maxBig(a: bigint, b: bigint): bigint {
   return a > b ? a : b;
 }
+
+export function absBig(a: bigint): bigint {
+  return a < 0n ? -a : a;
+}
