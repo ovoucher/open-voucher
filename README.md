@@ -85,7 +85,7 @@ stellar contract build            # target/wasm32v1-none/release/{merchant_regis
 
 # app: offline tests (no RPC, no LLM key), build, simulation
 cd app
-npm install
+npm ci # or npm install
 npm test
 npm run build
 node dist/src/cli.js simulate --weeks 4 --out out
