@@ -80,6 +80,7 @@ an agricultural input-subsidy e-voucher scheme.
 
 ```bash
 # contracts: unit, negative, property and scenario tests inside the Soroban host
+# Requires stellar-cli >= 22.0.0 installed locally
 cargo test -j 2
 stellar contract build            # target/wasm32v1-none/release/{merchant_registry,redeem_pool}.wasm
 
