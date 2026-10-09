@@ -25,3 +25,7 @@ function sortKeys(v: unknown): unknown {
   }
   return v;
 }
+
+export function sha512Hex(data: string | Uint8Array): string {
+  return createHash('sha512').update(data).digest('hex');
+}
