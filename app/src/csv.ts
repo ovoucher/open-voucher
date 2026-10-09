@@ -74,6 +74,7 @@ function esc(v: string): string {
   return /[",\r\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v;
 }
 
+/** Converts an array of objects to a CSV string given a specific header order. */
 export function toCsv(header: string[], rows: Array<Record<string, string | number | bigint | boolean | undefined>>): string {
   const lines = [header.map(esc).join(',')];
   for (const r of rows) lines.push(header.map((h) => esc(r[h] === undefined ? '' : String(r[h]))).join(','));
