@@ -135,3 +135,13 @@ export function levenshtein(a: string, b: string): number {
   return d[a.length][b.length];
 }
 
+/** Hamming distance between two strings of equal length. */
+export function hamming(a: string, b: string): number {
+  if (a.length !== b.length) throw new Error('Strings must be of equal length for Hamming distance');
+  let distance = 0;
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] !== b[i]) distance++;
+  }
+  return distance;
+}
+
