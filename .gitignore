@@ -1,0 +1,15 @@
+# Node
+node_modules/
+dist/
+npm-debug.log
+
+# Rust / Soroban
+target/
+.soroban/
+
+# Env
+.env
+.env.local
+
+# Output
+out/
