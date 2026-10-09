@@ -84,8 +84,10 @@ export function soundex(word: string): string {
  * if some token of the other name has Jaro-Winkler ≥ 0.92 (tolerates one typo).
  */
 const NAME_STOPWORDS = new Set(['ltd', 'limited', 'co', 'company', 'the', 'and', 'enterprises', 'enterprise', 'ventures', 'plc', 'k']);
+const TOKEN_CACHE = new Map<string, string[]>();
 
 export function nameTokens(name: string): string[] {
+  if (TOKEN_CACHE.has(name)) return TOKEN_CACHE.get(name)!;
   const s = stripDiacritics(name)
     .toLowerCase()
     .replace(/&/g, ' and ')
@@ -93,7 +95,9 @@ export function nameTokens(name: string): string[] {
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
   const toks = s.split(/\s+/).filter((t) => t && !NAME_STOPWORDS.has(t));
-  return [...new Set(toks)].sort();
+  const res = [...new Set(toks)].sort();
+  TOKEN_CACHE.set(name, res);
+  return res;
 }
 
 export function tokenSetSimilarity(a: string, b: string): number {
