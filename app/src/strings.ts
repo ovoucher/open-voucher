@@ -120,3 +120,18 @@ export function tokenSetSimilarity(a: string, b: string): number {
   }
   return (2 * matched) / (ta.length + tb.length);
 }
+
+/** Standard Levenshtein distance: insert, delete, substitute. */
+export function levenshtein(a: string, b: string): number {
+  const d: number[][] = [];
+  for (let i = 0; i <= a.length; i++) d.push([i, ...new Array<number>(b.length).fill(0)]);
+  for (let j = 0; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + cost);
+    }
+  }
+  return d[a.length][b.length];
+}
+
